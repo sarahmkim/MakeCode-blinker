@@ -1,20 +1,7 @@
-
 /**
- * Use this file to define custom functions and blocks.
- * Read more at https://makecode.microbit.org/blocks/custom
+ * Blink blocks
  */
-
-enum MyEnum {
-    //% block="one"
-    One,
-    //% block="two"
-    Two
-}
-
-/**
- * Custom blocks
- */
-//% weight=100 color=#0fbc11 icon=""
+//% weight=80 color=#0fbc11 icon=""
 namespace custom {
     /**
      * TODO: describe your function here
