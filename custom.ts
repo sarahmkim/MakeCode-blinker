@@ -22,7 +22,7 @@ namespace custom {
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
-    //% block
+    //% block = "foo does $s this number of times $n"
     export function foo(n: number, s: string, e: MyEnum): void {
         // Add code here
     }
