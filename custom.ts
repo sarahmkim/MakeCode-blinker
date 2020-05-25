@@ -22,7 +22,7 @@ namespace custom {
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
-    //% block = "foo does $s this number of times $n"
+    //% block="foo does $s this number of times $n"
     export function foo(n: number, s: string, e: MyEnum): void {
         // Add code here
     }
@@ -31,8 +31,8 @@ namespace custom {
      * TODO: describe your function here
      * @param value describe value here, eg: 5
      */
-    //% block
+    //% block="fib is $value "
     export function fib(value: number): number {
-        return value <= 1 ? value : fib(value -1) + fib(value - 2);
+        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
     }
 }
