@@ -11,7 +11,7 @@ namespace custom {
      */
     //% block="blink at x $x y $y with an interval of $int ms"
     export function blink(x: number, y: number, int: number): void {
-        let sprite = game.createSprite(4,4)
+        let sprite = game.createSprite(x,y)
         sprite.setBlink(int)
         sprite.blink()
 
