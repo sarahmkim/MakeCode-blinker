@@ -3,6 +3,11 @@
 
 ## Use as Extension
 
+## Blink #blinkerblink
+''' blink 
+blinker.blink(0,0,100)
+'''
+ 
 This repository can be added as an **extension** in MakeCode.
 
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
