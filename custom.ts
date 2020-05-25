@@ -22,17 +22,9 @@ namespace custom {
      * @param s describe parameter here, eg: "Hello"
      * @param e describe parameter here
      */
-    //% block="foo does $s this number of times $n"
-    export function foo(n: number, s: string, e: MyEnum): void {
-        // Add code here
+    //% block="blink at x $x y $y with an interval of $int ms"
+    export function blink(x: number, y: number, int: number): void {
+        
     }
 
-    /**
-     * TODO: describe your function here
-     * @param value describe value here, eg: 5
-     */
-    //% block="fib is $value "
-    export function fib(value: number): number {
-        return value <= 1 ? value : fib(value - 1) + fib(value - 2);
-    }
 }
